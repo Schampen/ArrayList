@@ -9,7 +9,7 @@ public class s {
         playerData data = new playerData("????", 0);
         players.add(data);
         do {
-            data = new playerData("????", 0);
+            data = new playerData("???", 0);
             System.out.println("What's your name?");
             data.setName(tgb.nextLine());
             System.out.println("Type in a score, enter -1 to quit");
